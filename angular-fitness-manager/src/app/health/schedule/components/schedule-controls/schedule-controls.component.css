@@ -1,0 +1,32 @@
+.controls {
+    position: relative;
+    text-align: center;
+    height: 48px;
+    padding: 12px 0;
+  }
+  .controls p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .controls button {
+    cursor: pointer;
+    position: absolute;
+    top: -1px;
+    outline: 0;
+    background: #f9f9f9;
+    border: 1px solid #c1cedb;
+    width: 50px;
+    height: 50px;
+    transition: all 0.2s ease-in-out;
+  }
+  .controls button:hover {
+    background: #ececec;
+  }
+  .controls button:first-child {
+    left: -1px;
+  }
+  .controls button:last-child {
+    right: -1px;
+  }
+  
