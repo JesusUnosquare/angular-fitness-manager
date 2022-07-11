@@ -1,0 +1,39 @@
+.workout-type {
+    display: flex;
+  }
+  .workout-type__pane {
+    flex: 0 0 30%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin: 0 15px 0 0;
+    background: #f5f9fd;
+    border: 1px solid #d1deeb;
+    border-radius: 3px;
+    transition: all 0.2s ease-in-out;
+  }
+  .workout-type__pane:hover {
+    background: #e8f1fa;
+  }
+  .workout-type__pane.active {
+    background: #e8f1fa;
+  }
+  .workout-type__pane.active img, .workout-type__pane.active p {
+    opacity: 1;
+  }
+  .workout-type__pane img {
+    opacity: 0.6;
+    margin: 0 25px 0 0;
+    width: 35px;
+  }
+  .workout-type__pane p {
+    opacity: 0.6;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
